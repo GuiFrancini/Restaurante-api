@@ -8,4 +8,19 @@ router.get(
   ClienteController.listar
 );
 
+router.post(
+  "/clientes",
+  ClienteController.inserir
+);
+
+router.put(
+  "/clientes/:id",
+  ClienteController.atualizar
+);
+
+router.delete(
+  "/clientes/:id",
+  ClienteController.excluir
+);
+
 export default router;

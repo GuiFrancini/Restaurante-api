@@ -6,4 +6,5 @@ export const db = mysql.createPool({
   user: "root",
   password: "root",
   database: "restaurante_db",
+  charset: "utf8mb4" 
 });
